@@ -1,0 +1,127 @@
+
+body{
+display: flex;
+  justify-content: center;
+text-align: center;
+background-color: hsl(185, 75%, 39%);
+background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+background-repeat: no-repeat, no-repeat;
+background-position: right 50vw bottom 30vh, left 50vw top 50vh;
+background-attachment: fixed, fixed;
+background-size: auto;
+/*body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 30vh, left 50vw top 50vh;
+    background-attachment: fixed, fixed;
+    background-size: auto;
+}*/
+
+}
+div
+{
+  display: inline-block;
+background-color: white;
+text-align: center;
+border-radius: 5%;
+position: relative;
+top:250px;
+}
+
+.design{
+  border-radius: 5% 5% 0 0;
+}
+
+
+
+.victor{
+
+  position: relative;
+  //left: 117px;
+  bottom: 55px;
+  border-radius: 50%;
+  border: solid;border-color: white;
+
+
+}
+
+br{
+  line-height: 10px;
+}
+h1
+{
+  display: inline-block;
+
+  //margin-left: 80px;
+  position: relative;
+  bottom: 50px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700px;
+  color: hsl(229, 23%, 23%);
+}
+.age
+{
+  display: inline-block;
+
+  position: relative;
+  bottom: 50px;
+//  margin-left: 5px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400px;
+  color:  hsl(0, 0%, 59%);
+}
+.place
+{
+  display: inline-block;
+  color:  hsl(0, 0%, 59%);
+
+  font-family: 'Kumbh Sans', sans-serif;
+font-weight: 400px;
+//  margin-left: 140px;
+  position: relative;
+  bottom: 70px;
+}
+hr{
+  position: relative;
+  bottom: 65px;
+
+height: 2px;
+background-color: hsl(0, 0%, 59%);
+border: none;
+
+}
+ul{
+  margin:0;
+  list-style: none;
+  position: relative;
+  bottom: 40px;
+//  left: 10px;
+
+}
+
+
+li{
+
+
+  display: inline-block;
+color:  hsl(0, 0%, 59%);
+//  margin-left: 20px;
+  font-family: 'Kumbh Sans', sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.a{
+
+  font-weight: 700px;
+  padding: 10px;
+  color: hsl(229, 23%, 23%);
+
+}
